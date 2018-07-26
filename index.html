@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</head>
+<body>
+  <h1 id="title">Survey Form</h1>
+    <div id="marco">
+      <p id="description">Dinos en que podemos mejorar</p>
+        <form action="" id="survey-form">
+
+          <label for="name" id="name-label">*Nombre: </label>
+          <input type="text" id="name"  placeholder="Ingresa tu nombre" autofocus required><br>
+
+          <label for="email" id="email-label">*Email:</label>
+          <input type="email" id="email" placeholder="Ingresa tu email" required><br>
+
+          <label for="edad" id="number-label">*Edad</label>
+          <input type="number" id="number" min="1" max="125" placeholder="Edad" required><br>
+
+          <label for="">Cual de las siguiente opciones describe tu ocupacion: </label>
+          <select id="dropdown" name="tipo">
+            <option value="" disabled >Eliga una opcion</option>
+            <option value="Estudiante" selected>Estudiante</option>
+            <option value="Full-time">Full-time</option>
+            <option value="Part-time">Part-time</option>
+            <option value="otros">Otros</option>
+          </select><br>
+
+          <label for="">Como recomendarias a tu amigo freeCodeCamp?</label>
+          <input type="radio" name="gusto" value="1">Definitivamente
+          <input type="radio" name="gusto" value="2">Quizas
+          <input type="radio" name="gusto" value="3">No estoy seguro<br>
+
+          <label for="">Cosas para mejorar en el futuro: </label>
+          <input type="checkbox" name="reco" value="1">Front-end Projects
+          <input type="checkbox" name="reco" value="2">Back-end Projects
+          <input type="checkbox" name="reco" value="3">Front-end Data Visualization
+          <input type="checkbox" name="reco" value="4">Challenges
+          <input type="checkbox" name="reco" value="5">Videos
+          <input type="checkbox" name="reco" value="6">Forum <br>
+
+          <label for="">Algun comentario ?</label>
+          <textarea name="textarea" rows="4" cols="40" placeholder="Ingrese sus comentarios aqui..."></textarea><br>
+
+          <button type="submit" name="button" id="submit">Submit</button>
+        </form>
+
+
+        </script>
+    </div>
+</body>
+</html>
