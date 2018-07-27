@@ -17,3 +17,18 @@ body {
   padding: 10px;
   padding-top: 20px;
 }
+
+.izq{
+  width: 45%;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.der{
+  width: 45%;
+  text-align: left;
+  vertical-align: middle;
+  width: 100px;
+}
+
+/**un comentario***/
